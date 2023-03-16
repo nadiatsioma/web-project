@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <style>
+      .buttons_header {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 12px;
+        right: 150px;
+        padding: 5px;
+        margin: 20px;
+      }
+      .buttons_head {
+        border-radius: 10px;
+        background-color: #fff;
+        color: #000000;
+        cursor: pointer;
+      }
+      #logo {
+        float: left;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+      }
+      #name {
+        margin-left: 45px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+
+      #table_img {
+        width: 130px;
+        height: 190px;
+      }
+    </style>
+  </head>
+  <body style="background-color: gainsboro">
+    <header>
+      <div>
+        <h2 id="name">Твоя віртуальна книжкова полиця</h2>
+        <img
+          id="logo"
+          src="images/book.png"
+          alt="book"
+          width="30px"
+          height="30px"
+        />
+      </div>
+      <div class="buttons_header">
+        <form action="">
+          <input
+            type="text"
+            id="search-request"
+            name="search-request"
+            value="Пошук"
+          />
+        </form>
+        <button class="buttons_head">Увійти</button>
+        <button class="buttons_head">Зареєструватись</button>
+      </div>
+    </header>
+    <br />
+    <a
+      href="https://en.wikipedia.org/wiki/Reading#How_the_brain_reads"
+      target="_blank"
+      style="font-size: large"
+      >Посилання</a
+    >
+    <h4>Доступні статуси:</h4>
+    <ul>
+      <li>Не читана</li>
+      <li>Читається зараз</li>
+      <li>Прочитана</li>
+      <li>До прочитання</li>
+    </ul>
+    <h4>Ваші книжкові полиці:</h4>
+    <ol>
+      <li>Прочитане</li>
+      <li>До прочитання</li>
+      <li>Читаю зараз</li>
+    </ol>
+    <br />
+    <table>
+      <tr>
+        <th></th>
+        <th>Назва</th>
+        <th>Автор_ка</th>
+        <th>Статус</th>
+      </tr>
+      <tr>
+        <td>
+          <img
+            id="table_img"
+            src="images/frankenstein.jpg"
+            alt="frankenstein"
+          />
+        </td>
+        <td>Франкенштейн</td>
+        <td>Мері Шеллі</td>
+        <td>Не читана</td>
+      </tr>
+      <tr>
+        <td><img id="table_img" src="images/dorian.jpg" alt="dorian" /></td>
+        <td>Портрет Доріана Грея</td>
+        <td>Оскар Вайлд</td>
+        <td>Не читана</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            id="table_img"
+            src="images/ofmiceandmen.jpg"
+            alt="ofmiceandmen"
+          />
+        </td>
+        <td>Про мишей і людей</td>
+        <td>Джон Стейнбек</td>
+        <td>Не читана</td>
+      </tr>
+    </table>
+  </body>
+</html>
