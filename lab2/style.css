@@ -1,0 +1,84 @@
+body {
+  background-color: gainsboro;
+}
+#logo {
+  float: left;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+}
+#name {
+  margin-left: 45px;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+}
+#subname {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+}
+div.buttonsHeader {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 5px;
+  margin: 20px;
+}
+.buttonsHead {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+  margin: 5px;
+}
+.formHead {
+  margin: 5px;
+}
+.readingStatusButton {
+  color: brown;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+}
+.readingStatusButton:hover {
+  color: goldenrod;
+}
+ul {
+  list-style-type: square;
+  background: gold;
+  padding: 3px;
+  margin-left: 10px;
+  width: 250px;
+}
+ul li {
+  background: burlywood;
+  margin: 5px;
+}
+table {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: auto;
+  width: max-content;
+  text-align: center;
+}
+th {
+  background-color: brown;
+  color: white;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.tableImg {
+  width: 130px;
+  height: 190px;
+}

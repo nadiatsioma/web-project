@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project BookkooB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h2 id="name">BookkooB</h2>
+        <h4 id="subname">Твоя віртуальна книжкова полиця</h4>
+        <img id="logo" src="images/book.png" alt="book" />
+      </div>
+      <div class="buttonsHeader">
+        <a href="currentlyreading.html" class="readingStatusButton"
+          >Читаю зараз</a
+        >
+        <a href="read.html" class="readingStatusButton">Прочитане</a>
+        <a href="toread.html" class="readingStatusButton">До прочитання</a>
+        <form action="" class="formHead">
+          <input
+            type="text"
+            id="search-request"
+            name="search-request"
+            value="Пошук"
+          />
+        </form>
+        <button class="buttonsHead">Увійти</button>
+        <button class="buttonsHead">Зареєструватись</button>
+      </div>
+    </header>
+    <br />
+
+    <ul>
+      <caption>
+        <h4>Статуси, доступні для зареєстрованого користувача:</h4>
+      </caption>
+      <li>Не читана</li>
+      <li>Читається зараз</li>
+      <li>Прочитана</li>
+      <li>До прочитання</li>
+    </ul>
+
+    <br />
+    <table>
+      <tr>
+        <th></th>
+        <th>Назва</th>
+        <th>Автор_ка</th>
+        <th>Статус</th>
+      </tr>
+      <tr>
+        <td>
+          <img
+            class="tableImg"
+            src="images/frankenstein.jpg"
+            alt="frankenstein"
+          />
+        </td>
+        <td>Франкенштейн</td>
+        <td>Мері Шеллі</td>
+        <td>Не читана</td>
+      </tr>
+      <tr>
+        <td><img class="tableImg" src="images/dorian.jpg" alt="dorian" /></td>
+        <td>Портрет Доріана Грея</td>
+        <td>Оскар Вайлд</td>
+        <td>Не читана</td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            class="tableImg"
+            src="images/ofmiceandmen.jpg"
+            alt="ofmiceandmen"
+          />
+        </td>
+        <td>Про мишей і людей</td>
+        <td>Джон Стейнбек</td>
+        <td>Не читана</td>
+      </tr>
+    </table>
+  </body>
+</html>
