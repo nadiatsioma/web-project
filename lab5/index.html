@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project BookkooB</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/social-media-share-buttons/dist/social-media-share-buttons.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <ul class="logo">
+          <li><img id="logo" src="images/book.png" alt="logo" /></li>
+          <li><a id="name" href="index.html">BookkooB</a></li>
+        </ul>
+
+        <div class="button">
+          <form action="" class="searchForm">
+            <input
+              type="text"
+              id="search-request"
+              name="search-request"
+              value="Пошук"
+            />
+          </form>
+          <button class="buttonsHead">Увійти</button>
+          <button class="buttonsHead">Зареєструватись</button>
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="navi">
+        <ul class="nav">
+          <li>
+            <a class="readingStatusButton" href="currentlyreading.html"
+              >Читаю зараз</a
+            >
+          </li>
+          <li>
+            <a class="readingStatusButton" href="read.html">Прочитане</a>
+          </li>
+          <li>
+            <a class="readingStatusButton" href="toread.html">До прочитання</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <br />
+
+    <main>
+      <div class="main">
+        <h2>Популярні книги цього тижня</h2>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/frankenstein.jpg" alt="book" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Франкенштейн</h2>
+            <p class="genre">Хорор, Класика | 1880 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div id="menu">
+              <button class="menu-status">Статус ⯆</button>
+              <ul class="dropdown-menu-status">
+                <li>Прочитана</li>
+                <li>Читаю зараз</li>
+                <li>До прочитання</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/dorian.jpg" alt="img" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Портрет Доріана Ґрея</h2>
+            <p class="genre">Класика | 1890 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div id="menu">
+              <button class="menu-status">Статус ⯆</button>
+              <ul class="dropdown-menu-status">
+                <li>Прочитана</li>
+                <li>Читаю зараз</li>
+                <li>До прочитання</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/ofmiceandmen.jpg" alt="img" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Про мишей і людей</h2>
+            <p class="genre">Класика | 1937 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div id="menu">
+              <button class="menu-status">Статус ⯆</button>
+              <ul class="dropdown-menu-status">
+                <li>Прочитана</li>
+                <li>Читаю зараз</li>
+                <li>До прочитання</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- clock widget start -->
+      <script type="text/javascript">
+        var css_file = document.createElement("link");
+        css_file.setAttribute("rel", "stylesheet");
+        css_file.setAttribute("type", "text/css");
+        css_file.setAttribute(
+          "href",
+          "https://s.bookcdn.com//css/cl/bw-cl-sm2.css?v=0.0.1"
+        );
+        document.getElementsByTagName("head")[0].appendChild(css_file);
+      </script>
+      <div id="tw_25_484210570">
+        <div style="width: 200px; height: px; margin: 0 auto">
+          <a href="https://hotelmix.com.ua/time/kyiv-18881">Київ</a><br />
+        </div>
+      </div>
+      <script type="text/javascript">
+        function setWidgetData_484210570(data) {
+          if (typeof data != "undefined" && data.results.length > 0) {
+            for (var i = 0; i < data.results.length; ++i) {
+              var objMainBlock = "";
+              var params = data.results[i];
+              objMainBlock = document.getElementById(
+                "tw_" + params.widget_type + "_" + params.widget_id
+              );
+              if (objMainBlock !== null)
+                objMainBlock.innerHTML = params.html_code;
+            }
+          }
+        }
+        var clock_timer_484210570 = -1;
+        widgetSrc =
+          "https://widgets.booked.net/time/info?ver=2;domid=966;type=25;id=484210570;scode=49457;city_id=18881;wlangid=29;mode=1;details=0;background=ffffff;border_color=ffffff;color=ba00ba;add_background=ffffff;add_color=333333;head_color=ffffff;border=1;transparent=0";
+        var widgetUrl = location.href;
+        widgetSrc += "&ref=" + widgetUrl;
+        var wstrackId = "";
+        if (wstrackId) {
+          widgetSrc += ";wstrackId=" + wstrackId + ";";
+        }
+        var timeBookedScript = document.createElement("script");
+        timeBookedScript.setAttribute("type", "text/javascript");
+        timeBookedScript.src = widgetSrc;
+        document.body.appendChild(timeBookedScript);
+      </script>
+      <!-- clock widget end -->
+
+      <div>
+        <a class="social-buttons facebook" href="https://uk-ua.facebook.com/"
+          ><img class="social-img" src="images/facebook.png" alt="Facebook"
+        /></a>
+        <a class="social-buttons instagram" href="https://www.instagram.com/">
+          <img class="social-img" src="images/instagram.png" alt="instagram"
+        /></a>
+        <a class="social-buttons pinterest" href="https://www.pinterest.com/">
+          <img class="social-img" src="images/pinterest.png" alt="pinterest"
+        /></a>
+        <a class="social-buttons twitter" href="https://twitter.com/">
+          <img class="social-img" src="images/twitter.png" alt="twitter"
+        /></a>
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function () {
+        // Приховування випадаючого меню при завантаженні сторінки
+        $(".dropdown-menu-status").hide();
+        // Відкриття/закриття випадаючого меню при натисканні кнопки
+        $(".menu-status").click(function () {
+          $(this).siblings(".dropdown-menu-status").toggle();
+        });
+        // Закриття випадаючого меню при кліку за межами меню
+        $(document).click(function (event) {
+          if (
+            !$(event.target).closest(".menu-status").length &&
+            !$(event.target).closest(".dropdown-menu-status").length
+          ) {
+            $(".dropdown-menu-status").hide();
+          }
+        });
+
+        $(".social-buttons").socialMediaShareButton();
+      });
+    </script>
+  </body>
+</html>

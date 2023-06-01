@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project BookkooB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <ul class="logo">
+          <li><img id="logo" src="images/book.png" alt="logo" /></li>
+          <li><a id="name" href="index.html">BookkooB</a></li>
+        </ul>
+
+        <div class="button">
+          <form action="" class="searchForm">
+            <input
+              type="text"
+              id="search-request"
+              name="search-request"
+              value="Пошук"
+            />
+          </form>
+          <button class="buttonsHead">Увійти</button>
+          <button class="buttonsHead">Зареєструватись</button>
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="navi">
+        <ul class="nav">
+          <li>
+            <a class="readingStatusButton" href="currentlyreading.html"
+              >Читаю зараз</a
+            >
+          </li>
+          <li>
+            <a class="readingStatusButton" href="read.html">Прочитане</a>
+          </li>
+          <li>
+            <a class="readingStatusButton" href="toread.html">До прочитання</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <br />
+
+    <main>
+      <div class="main">
+        <h2>Популярні книги цього тижня</h2>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/frankenstein.jpg" alt="book" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Франкенштейн</h2>
+            <p class="genre">Хорор, Класика | 1880 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div id="menu">
+              <div class="status">
+                Статус
+                <div class="option">Прочитана</div>
+                <div class="option">Читаю зараз</div>
+                <div class="option">До прочитання</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/dorian.jpg" alt="img" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Портрет Доріана Ґрея</h2>
+            <p class="genre">Класика | 1890 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div class="status">Статус</div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="cover">
+            <img class="coverImg" src="images/ofmiceandmen.jpg" alt="img" />
+          </div>
+          <div class="bookinfo">
+            <h2 class="title">Про мишей і людей</h2>
+            <p class="genre">Класика | 1937 рік</p>
+            <p class="review">Ваш відгук</p>
+            <div class="status">Статус</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <div>
+        <a href="">Instagram</a> |
+        <a href="">Twitter</a>
+      </div>
+    </footer>
+  </body>
+</html>

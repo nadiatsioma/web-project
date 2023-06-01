@@ -1,0 +1,152 @@
+header {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: gainsboro;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+}
+#logo {
+  width: 30px;
+  height: 30px;
+}
+#name {
+  font-size: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+.head {
+  display: inline-flex;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  padding: 10px;
+  float: left;
+  margin-right: 100px;
+}
+.logo li {
+  margin-right: 5px;
+  border: none;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  float: right;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.buttonsHead {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+  margin: 5px;
+  width: fit-content;
+  text-align: center;
+  height: 30px;
+}
+.searchForm {
+  margin: 5px;
+}
+.navi {
+  display: inline-flex;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 4px 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.nav li {
+  margin-right: 30px;
+}
+.readingStatusButton {
+  color: brown;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+}
+.readingStatusButton:hover {
+  color: goldenrod;
+}
+.coverImg {
+  width: 140px;
+  height: 200px;
+}
+.main {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+.book {
+  max-width: 700px;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid darkolivegreen;
+  background-color: darkseagreen;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+.cover {
+  float: left;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px 30px;
+}
+.bookinfo {
+  float: left;
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.title,
+.autor,
+.genre {
+  margin: 0;
+}
+.review {
+  margin: 30px 0 10px 0;
+  border: 1px solid;
+  width: max-content;
+  padding: 0 10px;
+}
+.status {
+  border: 2px solid;
+  background-color: rosybrown;
+  width: max-content;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.status .option {
+  width: max-content;
+  height: fit-content;
+  padding: 0 10px;
+  background-color: #fff;
+  cursor: pointer;
+  display: none;
+}
+footer {
+  width: 100%;
+  text-align: center;
+}
